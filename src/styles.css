@@ -43,7 +43,7 @@ p {
 .example {
   font-family: sans-serif;
   padding: 80px;
-  box-align: center;
+  box-align: left;
 }
 
 .card {
@@ -76,6 +76,8 @@ form {
 label {
   display: block;
   margin-bottom: 8px;
+  padding-left: 10px;
+  padding-top: 20px;
   font-size: 14px;
   font-weight: 500;
   color: #000000;
@@ -121,7 +123,8 @@ input,
 
   height: 40px;
 
-  padding: 10px 12px;
+  padding: 10px;
+  margin: 10px;
 
   border: 1px solid transparent;
   border-radius: 4px;
@@ -141,5 +144,59 @@ input,
 }
 
 .StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.StripeElement1 {
+  box-sizing: border-box;
+
+  height: 40px;
+  width: 45%;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement1--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement1--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement1--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.StripeElement2 {
+  box-sizing: border-box;
+
+  height: 40px;
+  width: 95%;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement2--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement2--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement2--webkit-autofill {
   background-color: #fefde5 !important;
 }
